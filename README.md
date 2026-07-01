@@ -216,22 +216,4 @@ Browser the same way.
 - Expand the RAG corpus beyond the 10 seed entries via `scripts/build_rag_corpus.py` (not yet included) pulling PubMed E-utilities + Radiopaedia.
 - 3D volume rendering (marching cubes / WebGL) as an optional viewer mode.
 
-## 9. Resume / portfolio bullets
-
-- *Architected and built PulmoScan AI, a full-stack medical imaging AI platform for chest CT analysis, integrating MONAI-based 3D segmentation (SegResNet, Swin UNETR), nodule detection, multi-label disease classification, and Grad-CAM explainability behind a FastAPI backend and React/TypeScript radiology viewer.*
-- *Designed a RAG pipeline using FAISS and BioBERT embeddings to ground LLM-generated radiology reports in retrieved PubMed/Radiopaedia literature, producing structured Findings/Impression/Recommendations sections with citations.*
-- *Built a DICOM preprocessing pipeline (pydicom, SimpleITK, TorchIO) handling series loading, isotropic resampling, and HU-windowing for consistent model input across scanner protocols.*
-- *Designed a PostgreSQL schema and REST API for patient/study/finding/report management with JWT auth, and containerized the full stack with Docker Compose.*
-
-## 10. Portfolio description (short)
-
-PulmoScan AI is a full-stack medical AI application that analyzes chest CT
-DICOM studies for pulmonary nodules and common lung diseases, generates
-explainable AI overlays (Grad-CAM), and produces RAG-grounded structured
-radiology reports — all served through a radiology-workstation-style web
-interface. Built to demonstrate production-shaped Medical AI engineering:
-real DICOM handling, MONAI model architectures, a RAG-backed LLM reporting
-pipeline, and a typed full-stack API surface, with explicit, honest
-separation between validated classical pipelines and deep-learning paths
-that require domain-specific training data this project doesn't claim to
-have trained on.
+ 
